@@ -22,4 +22,14 @@ body {
 }
 .main p:hover {
   color: pink;
+}
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
+.light {
+  background: white;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
